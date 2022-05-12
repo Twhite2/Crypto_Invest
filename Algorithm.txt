@@ -1,0 +1,57 @@
+Algorithm for finding and spotting reliable and investable coins/NFTs
+	Get news about coins/NFTs from sources
+		1. new coins
+		2. existing coins
+	For each Coin/NFT:
+		1. if new coin:
+			1. Verify there validity from verifiable sources
+			2. get the current average  price of the coin from sources
+			3. get the trade volume to determine if
+				1. High 
+				2. Low
+			4. get market capacity
+			5. Verify Developers of the Project from Github
+			6. get number of followers the coin from Instagram, twitter and if possible number of Telegram members
+			7. determine if
+				1. More buys
+				2. More sells
+			8. Identify service or product they offer from information sources to determine if there is:
+				1. A Minimum Viable Product (MVP)
+				2. No Minimum Viable Product (MVP)
+			9. Check to confirm name or product/service similarity with other projects
+			10. determine if the activities or happenings around the product or service is
+				1.  negative perceptions 
+				2. positive perceptions
+			11. Identify the personalities talking about the product or service associated with the coin
+			12. Determine the ratio of high ranking personality to that of low ranking personalities and determine  if
+					1. More high ranking
+					2. More low ranking
+			13. Check for service/product updates from social media and other sources:
+				1. If update is available, check perceptions on the update from social media and determine whether
+					1. Negative
+					2. positive
+				2. Do (11-12)
+
+Coins/NFTs information sources
+
+Verify the coins using several sources(PooCoinCharts, TokenSniffer)
+Gather news from Exchanges (Coinbase, Gemini, Kraken, Crypto.com , Binance😞)
+	The provide a list of new coins
+Look at Data Agregators (Coingecko, CoinMarketCap): 
+	Gives information on new coins, their prices, market capacity(Total fiat value of the coin in the market) and trading volume (The mount of fiat value of the coin traded)
+Social Media (Twitter, Telegram, Discord):
+	Look out for changes in a blockchain project or new coins by announced by the developers
+	Put on notifications for using key words like (Crypto, new crypto, crypto release, new coin)
+Websites: Top ICO, Smith&Crown, ICO Bench)
+	They list and talk about new coins
+Tools ( PooCoin Charts, TokenSniffer)
+	Used to verify new the validity of any new coin identified
+Defi Platforms (MakerDAO, PancakeSwap, Aave):
+	They use smart contracts to implement traditional financial market operations, some of them do have coins they use within their community that can be invested in.
+NFT Market Places: OpenSea, Rarible and SuperRare, TopShot
+	Non-Fungible Tokens, they are digital assets that have been tokenized-Tokenization is the generation of an Alpha-numerically encoded set of charcters and the linking of set of characters to a digital asset. The NFT Marketplace lists NFT projects, their prices, market capacity, Trading volume and other information including activities of the NFT.
+ICOs:
+	ICO stand for Initial Coin Offering, it is a way of giving out or putting the coins to be used in a particular blockchain project's community for sale at an initial price that is very low; for first adopters of the project to make profit when the community grows and the coin become very valuable.
+Crypto/NFT  Price Movements and Indication/Research and news Sources
+	messari.io, CryptoRadar
+Check the Development of a a coin Project from centiment.io, or github.com

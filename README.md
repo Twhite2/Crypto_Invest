@@ -1,2 +1,2 @@
 # Crypto_Invest
-A technological system that spots viable and promising cryptocurrencies for investment.
+A technology that spots viable and promising cryptocurrencies for investment.

@@ -15,6 +15,13 @@ Note: Variables are to be attached to values gathered from user input or already
 @TVNFT: Trade Volume of NFT
 @coin_cap: Market capacity for crypto currency
 @NFT_cap: Market capacity for NFT products
+@coin_user: Social Media handle for crypto currency
+@NFT_user: Social Media handle for NFT
+@followers_count: Number of followers on social media
+@coinsellers: Number of users selling coin
+@coinbuyers: Number of people buying coin
+@NFTsellers: Number of people selling NFT
+@NFTbuyers: Number of people buying NFT
 """
 
 crypto_coin = input("Name of coin: \n")
@@ -75,4 +82,42 @@ else:
 coin_cap = crypto_coin.get()
 NFT_cap = NFT_mint.get()
 
-coin_user = crypto_coin 
+#Social Media Follower Count
+if coin_user == crypto_coin:
+	coin_user = " "
+
+	user = api.get_user(coin_user)
+
+	followers_count = user.followers_count
+
+	print("The number of followers of the user are : " + str(followers_count))
+
+elif NFT_user == NFT_mint:
+	NFT_user = " "
+
+	user = api.get_user(coin_user)
+
+	followers_count = user.followers_count
+
+	print("The number of followers of the user are : " + str(followers_count))
+#Getting value of Buyers and Sellers for crypto_coin
+coinbuyers = api.get_coinbuyers(crypto_coin)
+coinsellers = api.get_coinsellers(crypto_coin)
+
+if coinbuyers > coinsellers:
+	print("More Buyers")
+elif coinsellers > coinbuyers:
+	print("More Sellers")
+else:
+	print("Equal amount of Buyers and Sellers")
+
+#Getting value of Buyers and Sellers for NFT_mint
+NFTbuyers = api.get_NFTbuyers(NFT_mint)
+NFTsellers = api.get_NFTsellers(NFT_mint)
+
+if NFTbuyers > NFTsellers:
+	print("More Buyers")
+elif NFTsellers > NFTbuyers:
+	print("More Sellers")
+else:
+	print("Equal amount of Buyers and Sellers")

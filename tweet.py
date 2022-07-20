@@ -19,3 +19,6 @@ tweets = tw.Cursor(api.search,
 
 users_locs = [[tweet.user.screen_name, tweet.user.location] for tweet in tweets]
 users_locs
+
+user = api.get_user("BarackObama")
+user.verified

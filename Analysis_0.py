@@ -1,5 +1,5 @@
 from datetime import date
-from tweet.py import *
+from tweet import *
 
 """
 Description: Logical evaluation of Algorithm.

@@ -149,3 +149,7 @@ elif list_vuser > list_user:
 	print("More High Ranking personalities")
 else:
 	print("even number, or none at all.")
+#identifying perceptions on product updates
+pass
+
+#lines 35 to 57 require API attachments for validation. All will be added as API are acquired.

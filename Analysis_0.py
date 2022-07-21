@@ -138,3 +138,14 @@ def valsim(i):
 		print("Coins are different")
 coinval = valsim(crypto_coin)
 NFTval = valsim(NFT_mint)
+
+#determined happenings around coin to be good or bad
+pass
+
+#identifyng personalities talking about the coin
+if list_user > list_vuser:
+	print("Less High ranking personalities")
+elif list_vuser > list_user:
+	print("More High Ranking personalities")
+else:
+	print("even number, or none at all.")

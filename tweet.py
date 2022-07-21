@@ -22,3 +22,11 @@ users_locs
 
 user = api.get_user("BarackObama")
 user.verified
+
+list_user = []
+list_vuser = []
+for u in users:
+    list_user.append(user)
+
+for v in vusers:
+    list_vuser.append(user.verified)

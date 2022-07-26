@@ -55,3 +55,11 @@ ICOs:
 Crypto/NFT  Price Movements and Indication/Research and news Sources
 	messari.io, CryptoRadar
 Check the Development of a a coin Project from centiment.io, or github.com
+
+Algorithm for Twitter Perception Analysis of a coin
+1. The methodology will follow the steps outined below.
+2. Search twitter to curate twitts with the coin or blockchain project name
+3. Check each tweet handle if verified
+4. Analyse each tweet to ascertain either positive or negative
+5. agregate a perception summary from all tweets of verified hands hit
+6. pass result to the next stage of the algorithm
